@@ -17,7 +17,3 @@ script = ExtResource("2_p1nv3")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, -1)
 shape = SubResource("CircleShape2D_tmy1l")
-
-[node name="Camera2D" type="Camera2D" parent="."]
-visible = false
-position = Vector2(0, -34)
