@@ -2,6 +2,3 @@ res://default_env.tres
 res://player.tscn
 res://addons/gdpractice/assets/theme.tres
 res://bullet.tscn
-res://player.gd
-res://sprite_2d.gd
-res://bullet.gd
