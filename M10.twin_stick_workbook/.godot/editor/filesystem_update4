@@ -1,4 +1,5 @@
 res://default_env.tres
+res://weapon.tscn
+res://weapon.gd
 res://player.tscn
-res://addons/gdpractice/assets/theme.tres
 res://bullet.tscn
