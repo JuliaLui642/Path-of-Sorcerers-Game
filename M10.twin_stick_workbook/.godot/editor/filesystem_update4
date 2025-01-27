@@ -1,5 +1,5 @@
 res://default_env.tres
 res://weapon.tscn
-res://weapon.gd
+res://weapon_pivot.gd
 res://player.tscn
 res://bullet.tscn
