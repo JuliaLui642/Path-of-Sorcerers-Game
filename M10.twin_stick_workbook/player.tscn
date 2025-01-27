@@ -44,3 +44,5 @@ rotation = -0.0212728
 texture = ExtResource("5_uvysu")
 offset = Vector2(-31.8667, 8.00606)
 flip_v = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
