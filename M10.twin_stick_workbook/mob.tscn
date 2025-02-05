@@ -12,6 +12,7 @@ radius = 84.0536
 [node name="Mob" type="CharacterBody2D"]
 motion_mode = 1
 script = ExtResource("1_apkda")
+health = 0
 
 [node name="Detection_Area" type="Area2D" parent="."]
 unique_name_in_owner = true

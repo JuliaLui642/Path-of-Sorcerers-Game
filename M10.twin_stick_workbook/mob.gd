@@ -1,4 +1,4 @@
-extends CharacterBody2D
+class_name Mob extends CharacterBody2D
 
 @export var max_speed := 250.0
 @export var accerleration := 700.0
@@ -18,6 +18,7 @@ func _ready() -> void:
 		if body is Player:
 			_player = null
 	)
+	
 	
 func set_health(new_health: int) -> void:
 	health = new_health

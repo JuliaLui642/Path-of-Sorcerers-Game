@@ -1,0 +1,6 @@
+res://default_env.tres
+res://test.tscn
+res://levels/rooms/tilesets/floating_dungeon_tileset.tres
+res://levels/rooms/tilesets/tileset_invisible_walls.tres
+res://mob.tscn
+res://player.tscn
