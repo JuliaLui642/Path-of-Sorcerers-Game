@@ -46,3 +46,11 @@ offset = Vector2(-31.8667, 8.00606)
 flip_v = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="HealthBar" type="ProgressBar" parent="."]
+offset_left = -45.5355
+offset_top = -122.232
+offset_right = 49.4645
+offset_bottom = -95.2322
+value = 10.0
+show_percentage = false

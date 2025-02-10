@@ -6,6 +6,8 @@ class_name Mob extends CharacterBody2D
 
 var _player: Player = null
 
+@onready var _hit_box: Area2D = %HitBox
+
 @onready var _detection_area: Area2D = %Detection_Area
 
 
@@ -18,7 +20,11 @@ func _ready() -> void:
 		if body is Player:
 			_player = null
 	)
-	
+	_hit_box.body_entered.connect(func(body: Node) -> void:
+		if body is Player:
+			body.health -= health
+	)
+		
 	
 func set_health(new_health: int) -> void:
 	health = new_health

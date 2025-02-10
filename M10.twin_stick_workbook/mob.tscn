@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://cfs3wpbujg281"]
+[gd_scene load_steps=6 format=3 uid="uid://cfs3wpbujg281"]
 
 [ext_resource type="Texture2D" uid="uid://nohjoiah3jgr" path="res://mobs/sword_inactive.png" id="1_6xshk"]
 [ext_resource type="Script" path="res://mob.gd" id="1_apkda"]
@@ -8,6 +8,10 @@ radius = 366.268
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_io6u8"]
 radius = 69.0072
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_08pfc"]
+radius = 125.0
+height = 250.0
 
 [node name="Mob" type="CharacterBody2D"]
 motion_mode = 1
@@ -25,3 +29,9 @@ shape = SubResource("CircleShape2D_v0v3n")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_io6u8")
+
+[node name="HitBox" type="Area2D" parent="."]
+unique_name_in_owner = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
+shape = SubResource("CapsuleShape2D_08pfc")
