@@ -5,3 +5,6 @@ res://levels/rooms/tilesets/tileset_invisible_walls.tres
 res://player.gd
 res://picking_up.gd
 res://item.gd
+res://test.tscn
+res://mob.tscn
+res://player.tscn
